@@ -42,5 +42,12 @@
   },
   "engines": {
     "node": ">=16.14"
-  }
+  },
+  "description": "This is a demo repo to allow for a fast setup of Docusaurus on Github pages",
+  "main": "babel.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "license": "ISC"
 }
