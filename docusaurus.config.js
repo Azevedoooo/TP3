@@ -89,7 +89,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Projeto',
             items: [
               {
                 label: 'Documentação',
@@ -115,14 +115,14 @@ const config = {
             ],
           },
           {
-            title: 'RoadMap',
+            title: 'RoadMap e TP2',
             items: [
               {
                 label: 'RoadMap',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'TP2',
                 href: 'https://github.com/Azevedoooo/TP2',
               },
             ],
