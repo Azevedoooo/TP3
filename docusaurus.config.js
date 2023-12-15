@@ -79,8 +79,8 @@ const config = {
           },
           {to: '/roadmap', label: 'RoadMap', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/Azevedoooo/TP2',
+            label: 'GitHub TP2',
             position: 'right',
           },
         ],
@@ -123,7 +123,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Azevedoooo/TP2',
               },
             ],
           },
