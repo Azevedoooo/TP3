@@ -77,7 +77,7 @@ const config = {
             position: 'left',
             label: 'Documentação',
           },
-          {to: '/roadmap', label: 'RoadMap', position: 'left'},
+          {to: '/blog', label: 'RoadMap', position: 'left'},
           {
             href: 'https://github.com/Azevedoooo/TP2',
             label: 'GitHub TP2',
@@ -119,7 +119,7 @@ const config = {
             items: [
               {
                 label: 'RoadMap',
-                to: '/roadmap',
+                to: '/blog',
               },
               {
                 label: 'GitHub',
