@@ -65,9 +65,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Oficina ADC',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Minha Oficina ADC',
           src: 'img/logo.svg',
         },
         items: [
@@ -75,9 +75,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentação',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/roadmap', label: 'RoadMap', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -92,34 +92,34 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentação',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Githubs',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Miguel Azevedo',
+                href: 'https://github.com/Azevedoooo',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'João Pena',
+                href: 'https://github.com/JoaoP85215',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'César Teixeira',
+                href: 'https://github.com/CesarSilvestreTeixeira',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'RoadMap',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'RoadMap',
+                to: '/roadmap',
               },
               {
                 label: 'GitHub',
@@ -128,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Oficina ADC, Inc. Feito com Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
