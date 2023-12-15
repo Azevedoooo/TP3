@@ -45,13 +45,6 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -77,7 +70,6 @@ const config = {
             position: 'left',
             label: 'Documentação',
           },
-          {to: '/blog', label: 'RoadMap', position: 'left'},
           {
             href: 'https://github.com/Azevedoooo/TP2',
             label: 'GitHub TP2',
@@ -111,19 +103,6 @@ const config = {
               {
                 label: 'César Teixeira',
                 href: 'https://github.com/CesarSilvestreTeixeira',
-              },
-            ],
-          },
-          {
-            title: 'RoadMap e TP2',
-            items: [
-              {
-                label: 'RoadMap',
-                to: '/blog',
-              },
-              {
-                label: 'TP2',
-                href: 'https://github.com/Azevedoooo/TP2',
               },
             ],
           },
