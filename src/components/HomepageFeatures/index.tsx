@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Fácil de Entender',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Documentação super acessivel de entender sobre o projeto de ADC que
+        consiste na realização de documentação em docusaurus.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Focado no Projeto',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Projeto já iniciado em Jira, Git e agora neste momento em Docusarus
+        para ajudar na interpretação do projeto e o seu focus.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Criado com Gosto',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Realização deste projeto com bastante gosto e vontade. Muito feliz pela
+        a conclusão destes 3 projetos!
       </>
     ),
   },
