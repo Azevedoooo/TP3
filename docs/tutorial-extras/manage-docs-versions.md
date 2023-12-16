@@ -4,52 +4,12 @@ sidebar_position: 1
 
 # TP1
 
-Docusaurus can manage multiple versions of your docs.
+Foi realizado em Jira Software o nosso trabalho prático 1, com o objetivo de realizarmos user storys, backlogs e dar um sprint, e essas user storys tao agrupadas por grupos, tais como:
 
-## Create a docs version
-
-Release a version 1.0 of your project:
-
-```bash
-npm run docusaurus docs:version 1.0
-```
-
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
-
-Your docs now have 2 versions:
-
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
-
-## Add a Version Dropdown
-
-To navigate seamlessly across versions, add a version dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+- Gestão de Viaturas: Área que envolve a gestão das viaturas
+- Gestão de Cliente: Área que envolve a gestão de clientes
+- Gestão de Faturas: Área que envolve a gestão de faturas
+- Gestão de Reparos, Serviços e Manutenção: Área que envolve a gestão dos reparos, serviços e manuntenção das viaturas
+- Área do Cliente: Área que envolve o cliente
+- Métodos de Pagamento: Área que envolve os métodos de pagamento da aplicação
+- Autenticação e Segurança: Área que envolve a segurança dos utilizadores
