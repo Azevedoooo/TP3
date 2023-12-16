@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Funcionalidade Área do Cliente
+# Create a Document
 
 Documents are **groups of pages** connected through:
 
